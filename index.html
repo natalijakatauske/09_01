@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Contact Us!</h1>
+        <form>
+            <label for="name">Name</label>
+            <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Petras"
+                minlength="3"
+                mmaxlength="20"
+                required
+            />
+            <label for="email">Email:</label>
+            <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="petras@petras.lt"
+                required>
+            <label for="ref">Reference Number</label>
+            <input
+                type="number"
+                name="ref"
+                id="ref"
+                placeholder="12213">
+            <textarea placeholder="Your message goes here..."></textarea>
+            <input type="submit" value="SEND!">
+        </form>
+    </main>
+    
+</body>
+</html>
